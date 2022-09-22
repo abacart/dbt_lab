@@ -1,0 +1,17 @@
+version: 2
+
+models:
+    - name: customer_segmentation
+      description: Jupyter input for the customer segmentation use case.
+    - name: account_cleansed
+      description: Salesforce accounts
+      columns:
+        - name: account_id
+          description: Calculated columns URL
+        - name: account_name
+          description: Calculated columns Revenue_Category
+        - name: Billing_State
+          description: Calculated columns Nb_Products
+        - name: Billing_Country
+          description: Calculated columns ARR_Amount
+        

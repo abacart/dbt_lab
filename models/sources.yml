@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: sales
+    schema: salesforce
+    tables:
+      - name: raw_account
+        identifier: account
+
+      - name: raw_opportunity
+        identifier: opportunity
+
+      - name: raw_opportunitylineitem
+        identifier: opportunitylineitem
+
+      - name: raw_contract
+        identifier: contract
